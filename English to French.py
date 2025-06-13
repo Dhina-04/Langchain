@@ -22,7 +22,7 @@ if st.button("Translate to French"):
     else:
         try:
             # 🧠 LLM setup
-            llm = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.5)
+            llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.5)
 
             # 🧾 Prompt template
             prompt = ChatPromptTemplate.from_messages([
